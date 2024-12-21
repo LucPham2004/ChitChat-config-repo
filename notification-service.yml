@@ -2,9 +2,12 @@ server:
   port: 8087
 
 spring:
-  application:
-    name: notification-service
   datasource:
-    url: jdbc:mysql://localhost:3306/notificationdb
-    username: user
-    password: pass
+    url: jdbc:mysql://mysql-notification:3306/notificationdb
+    username: myuser
+    password: mypassword
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
