@@ -9,5 +9,8 @@ spring:
     username: user
     password: pass
 
-jwt:
-  secret: mysecretkey
+chitchat:
+  jwt:
+    base64-secret: cHJldmlvdXNjb25zdGFudGx5ZGl2aWRlYmFzZXBsYWludHJhdmVsZGlzaHdyYXBwZWQ=
+    access-token-validity-in-seconds: 86400
+    refresh-token-validity-in-seconds: 86400
