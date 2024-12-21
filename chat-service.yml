@@ -1,0 +1,10 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: chat-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/chatdb
+    username: user
+    password: pass

@@ -1,0 +1,10 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: notification-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/notificationdb
+    username: user
+    password: pass
